@@ -1,0 +1,274 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>Window</class>
+ <widget class="QMainWindow" name="Window">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>1292</width>
+    <height>1376</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>MainWindow</string>
+  </property>
+  <property name="iconSize">
+   <size>
+    <width>600</width>
+    <height>600</height>
+   </size>
+  </property>
+  <widget class="QWidget" name="centralwidget">
+   <property name="sizePolicy">
+    <sizepolicy hsizetype="Preferred" vsizetype="Preferred">
+     <horstretch>0</horstretch>
+     <verstretch>0</verstretch>
+    </sizepolicy>
+   </property>
+   <widget class="QWidget" name="widget_video" native="true">
+    <property name="geometry">
+     <rect>
+      <x>-10</x>
+      <y>0</y>
+      <width>1321</width>
+      <height>931</height>
+     </rect>
+    </property>
+   </widget>
+   <widget class="QWidget" name="widget_Button" native="true">
+    <property name="geometry">
+     <rect>
+      <x>-10</x>
+      <y>970</y>
+      <width>1291</width>
+      <height>341</height>
+     </rect>
+    </property>
+    <widget class="QPushButton" name="Button_Open_Camera">
+     <property name="geometry">
+      <rect>
+       <x>630</x>
+       <y>230</y>
+       <width>211</width>
+       <height>71</height>
+      </rect>
+     </property>
+     <property name="text">
+      <string>Open Camera</string>
+     </property>
+    </widget>
+    <widget class="QPushButton" name="Button_ClearArea">
+     <property name="geometry">
+      <rect>
+       <x>1050</x>
+       <y>230</y>
+       <width>201</width>
+       <height>71</height>
+      </rect>
+     </property>
+     <property name="text">
+      <string>Clear Area</string>
+     </property>
+    </widget>
+    <widget class="QPushButton" name="Button_Slower">
+     <property name="geometry">
+      <rect>
+       <x>600</x>
+       <y>120</y>
+       <width>161</width>
+       <height>81</height>
+      </rect>
+     </property>
+     <property name="text">
+      <string>Slower</string>
+     </property>
+    </widget>
+    <widget class="QPushButton" name="Button_Pause">
+     <property name="geometry">
+      <rect>
+       <x>760</x>
+       <y>120</y>
+       <width>161</width>
+       <height>81</height>
+      </rect>
+     </property>
+     <property name="text">
+      <string>Pause</string>
+     </property>
+    </widget>
+    <widget class="QPushButton" name="Button_Quicker">
+     <property name="geometry">
+      <rect>
+       <x>920</x>
+       <y>120</y>
+       <width>161</width>
+       <height>81</height>
+      </rect>
+     </property>
+     <property name="text">
+      <string>Quicker</string>
+     </property>
+    </widget>
+    <widget class="QPushButton" name="Button_TakePic">
+     <property name="geometry">
+      <rect>
+       <x>840</x>
+       <y>230</y>
+       <width>211</width>
+       <height>71</height>
+      </rect>
+     </property>
+     <property name="text">
+      <string>Taking Picture</string>
+     </property>
+    </widget>
+    <widget class="QPushButton" name="Button_Close_Camera">
+     <property name="geometry">
+      <rect>
+       <x>420</x>
+       <y>230</y>
+       <width>211</width>
+       <height>71</height>
+      </rect>
+     </property>
+     <property name="text">
+      <string>Close Camera</string>
+     </property>
+    </widget>
+    <widget class="QPushButton" name="Button_Next">
+     <property name="geometry">
+      <rect>
+       <x>1080</x>
+       <y>120</y>
+       <width>131</width>
+       <height>81</height>
+      </rect>
+     </property>
+     <property name="text">
+      <string>Next</string>
+     </property>
+    </widget>
+    <widget class="QPushButton" name="Button_Pre">
+     <property name="geometry">
+      <rect>
+       <x>460</x>
+       <y>120</y>
+       <width>141</width>
+       <height>81</height>
+      </rect>
+     </property>
+     <property name="text">
+      <string>Pre</string>
+     </property>
+    </widget>
+    <widget class="QListWidget" name="listWidget">
+     <property name="geometry">
+      <rect>
+       <x>50</x>
+       <y>30</y>
+       <width>351</width>
+       <height>271</height>
+      </rect>
+     </property>
+    </widget>
+    <widget class="QLabel" name="label">
+     <property name="geometry">
+      <rect>
+       <x>960</x>
+       <y>30</y>
+       <width>341</width>
+       <height>61</height>
+      </rect>
+     </property>
+     <property name="text">
+      <string>0/0</string>
+     </property>
+     <property name="scaledContents">
+      <bool>false</bool>
+     </property>
+     <property name="alignment">
+      <set>Qt::AlignCenter</set>
+     </property>
+    </widget>
+   </widget>
+   <widget class="QSlider" name="Video_Slider">
+    <property name="geometry">
+     <rect>
+      <x>10</x>
+      <y>940</y>
+      <width>1281</width>
+      <height>61</height>
+     </rect>
+    </property>
+    <property name="orientation">
+     <enum>Qt::Horizontal</enum>
+    </property>
+   </widget>
+  </widget>
+  <widget class="QMenuBar" name="menubar">
+   <property name="geometry">
+    <rect>
+     <x>0</x>
+     <y>0</y>
+     <width>1292</width>
+     <height>39</height>
+    </rect>
+   </property>
+   <property name="defaultUp">
+    <bool>false</bool>
+   </property>
+   <property name="nativeMenuBar">
+    <bool>true</bool>
+   </property>
+   <widget class="QMenu" name="menu_file">
+    <property name="tearOffEnabled">
+     <bool>false</bool>
+    </property>
+    <property name="title">
+     <string>Files</string>
+    </property>
+    <property name="separatorsCollapsible">
+     <bool>false</bool>
+    </property>
+    <property name="toolTipsVisible">
+     <bool>false</bool>
+    </property>
+    <addaction name="file_Action_OpenVideo"/>
+    <addaction name="file_Action_OpenMusic"/>
+    <addaction name="file__Action_OpenPicture"/>
+    <addaction name="file_Action_Close"/>
+   </widget>
+   <widget class="QMenu" name="menu_tools">
+    <property name="title">
+     <string>Tools</string>
+    </property>
+   </widget>
+   <addaction name="menu_file"/>
+   <addaction name="menu_tools"/>
+  </widget>
+  <widget class="QStatusBar" name="statusBar"/>
+  <action name="file_Action_OpenVideo">
+   <property name="text">
+    <string>OpenVideo</string>
+   </property>
+  </action>
+  <action name="file_Action_Close">
+   <property name="text">
+    <string>Close</string>
+   </property>
+  </action>
+  <action name="file__Action_OpenPicture">
+   <property name="text">
+    <string>OpenPicture</string>
+   </property>
+  </action>
+  <action name="file_Action_OpenMusic">
+   <property name="text">
+    <string>OpenMusic</string>
+   </property>
+  </action>
+ </widget>
+ <resources/>
+ <connections/>
+</ui>
